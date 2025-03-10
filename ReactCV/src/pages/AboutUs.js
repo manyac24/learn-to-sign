@@ -73,15 +73,15 @@ function AboutUs() {
           </StyledTextContainer>
           <br />
           <StyledTextContainer>
-            LearnSign was developed by two students hoping to leverage the power
+            LearnSign was developed  hoping to leverage the power
             of AI to promote a more inclusive society. We hope to make the
             learning of sign language a fun and independent process by
             automating and gamifying the teaching of basic Sign Language using
             AI.
           </StyledTextContainer>
           <br />
-          <StyledH1>Our Models</StyledH1>
-          <StyledTextContainer>
+          {/* <StyledH1>Our Models</StyledH1> */}
+          {/* <StyledTextContainer>
             LearnSign features 2 models – the Baseline Model, and the Extended
             Model. The Baseline Model was trained on four object classes, ‘A’,
             ‘B’, ‘C’, and ‘D’ to optimise for performance and accuracy. We then
@@ -89,7 +89,7 @@ function AboutUs() {
             excluding ‘J’, and ‘Z’, which are dynamic signs that require
             movement.
           </StyledTextContainer>
-          <br />
+          <br /> */}
           <StyledH1>Our Tech Stack</StyledH1>
           <StyledTextContainer>
             This web application was developed using ReactJs and hosted on
@@ -104,7 +104,7 @@ function AboutUs() {
             .
           </StyledTextContainer>
           <br />
-          <StyledTextContainer>
+          {/* <StyledTextContainer>
             Check out our source code&nbsp;
             <Keyword url="https://github.com/ngzhili/LearnSign" text="here" />.
           </StyledTextContainer>
@@ -119,8 +119,8 @@ function AboutUs() {
                 university="NUS"
                 github="https://github.com/ngzhili"
                 linkedin="https://www.linkedin.com/in/peizhen/"
-              />
-              <ProfileCard
+              /> */}
+              {/* <ProfileCard
                 imgSrc={zhiliImg}
                 name="Ng Zhili"
                 major="Mechanical Engineering"
@@ -129,7 +129,7 @@ function AboutUs() {
                 linkedin="https://www.linkedin.com/in/ngzhili/"
               />
             </StyledCardContainer>
-          </StyledTextContainer>
+          </StyledTextContainer> */}
           <br />
         </StyledBodyWrapper>
       </StyledAppContainer>

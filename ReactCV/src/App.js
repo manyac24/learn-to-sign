@@ -16,7 +16,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path={NAV_ITEMS.ABOUT_US.to} component={AboutUs} />
-        <Route exact path={NAV_ITEMS.FOUR_CLASSES.to} component={Baseline} />
+        {/* <Route exact path={NAV_ITEMS.FOUR_CLASSES.to} component={Baseline} /> */}
         <Route exact path={NAV_ITEMS.ALL_CLASSES.to} component={AllClasses} />
         <Route exact path={NAV_ITEMS.WORD_GAME.to} component={WordGame} />
         <Route render={() => <Redirect to={NAV_ITEMS.WORD_GAME.to} />} />
